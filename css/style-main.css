@@ -471,6 +471,15 @@ iframe {
 .text-white-fc {
   color: #fcfcfc !important;
 }
+
+.text-brown{
+  color: #ca973e !important;
+}
+
+.text-meharoon{
+  color: #dc9275 !important;
+}
+
 /* -------- Solid Color Background ---------- */
 .bg-deep {
   background-color: #f1f1f1 !important;
