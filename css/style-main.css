@@ -242,6 +242,37 @@ form {
 }
 
 
+
+.br-yellow > .container > .row{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.height-adjust{
+  display: flex;
+  flex-direction: column;
+  align-items:center ;
+  justify-content: center;
+}
+
+
+@media only screen and (min-width: 1200px ) {
+
+  .height-adjust{
+    height: 214px;
+  }
+  
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px){
+
+  .height-adjust{
+    height: 172px;
+  }
+  
+}
+
+
 /* -------- Custom Font Family ---------- */
 .font-raleway {
   font-family: 'Raleway', sans-serif;
@@ -351,6 +382,7 @@ form {
 html {
   font-size: 100%;
   max-width: 100%;
+  height: 100%;
 }
 html,
 html a {
