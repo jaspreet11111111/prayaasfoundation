@@ -110,8 +110,8 @@ This file contains the common styles of this theme.
 }
 body {
   line-height: 1.7;
-  color: #777777;
-  font-size: 13px;
+  /* color: #777777; */
+  font-size: 14px;
   font-family: 'Open Sans', sans-serif;
   background-color: #fff;
   background-attachment: fixed;
@@ -1172,8 +1172,10 @@ section {
 }
 section > .container,
 section > .container-fluid {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  /* padding-top: 60px; */
+  padding-top: 30px;
+  /* padding-bottom: 60px; */
+  padding-bottom: 20px;
 }
 /* -------- Position ---------- */
 .relative {
