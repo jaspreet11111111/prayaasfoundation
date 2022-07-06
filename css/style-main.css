@@ -117,7 +117,8 @@ body {
   background-attachment: fixed;
 }
 a {
-  color: #999999;
+  /* color: #999999; */
+  color: #555;
   text-decoration: none;
 }
 a:hover,
